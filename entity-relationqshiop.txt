@@ -1,0 +1,16 @@
+
+Employée (Employee_id , Employee_Name ,Employee_Speciality ,#Hotel)
+Hotel(Hotel_id , Hotel_name)
+
+Employée (Employee_id , Employee_Name ,Employee_Speciality, #director_id )
+
+Hotel(Hotel_id , Hotel_name, #Type)
+Type(Type_id ,Type_Name)
+
+Hotel(Hotel_id , Hotel_name, #Room)
+Room(Room_id , Floor)
+
+Room(Room_id , Floor,#Categoriy )
+Categoriy (Categoriy _id , Categoriy _Name , Price ,Beds _numbers)
+
+
